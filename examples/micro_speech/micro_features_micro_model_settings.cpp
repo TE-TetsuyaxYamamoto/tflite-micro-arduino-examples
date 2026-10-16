@@ -18,6 +18,8 @@ limitations under the License.
 const char* kCategoryLabels[kCategoryCount] = {
     "silence",
     "unknown",
-    "yes",
-    "no",
+    "al_xperia",
+    "al_alarm",
+    "al_barium",
+    "al_beep-beep-beep-alarm",
 };
