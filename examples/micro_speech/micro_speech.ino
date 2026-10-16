@@ -119,7 +119,7 @@ void setup() {
                                                  feature_buffer);
   feature_provider = &static_feature_provider;
 
-  static RecognizeCommands static_recognizer;
+  static RecognizeCommands static_recognizer(1000, 140);
   recognizer = &static_recognizer;
 
   previous_time = 0;
