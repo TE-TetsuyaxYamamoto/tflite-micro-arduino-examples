@@ -1,2 +1,4 @@
 .vscode
 *.swp
+examples/serial_audio_recorder/recordings/*
+examples/micro_speech/build/*
